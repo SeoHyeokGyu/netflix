@@ -2,8 +2,8 @@
 
 
 ##Project Cleanup
- `yarn add firebase, 
- styled-components, 
- use.js, 
- normalize.css`
+ `yarn add firebase`
+ `yarn add styled-components `
+ `yarn add use.js`
+ `yarn add normalize.css`
 
