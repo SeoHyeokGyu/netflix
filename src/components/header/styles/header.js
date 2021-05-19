@@ -4,11 +4,27 @@ import {Link as ReactRouterLink} from 'react-router-dom';
 export const Background = styled.div`
   display: flex;
   flex-direction: column;
-  background: url(${({src}) => (src ? `../images/misc/${src}.jpg` :
-          '../images/misc/home-bg.jpg')}) top left / cover no-repeat;
+  //background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/misc/home-bg.jpg");
+   background: linear-gradient(
+           to top, 
+           rgba(0, 0, 0, 0.1) 10%,
+           rgba(0, 0, 0, 0.4) 70%,
+           rgba(0, 0, 0, 1)
+   ),
+   
+   linear-gradient(
+           to bottom,
+           rgba(0, 0, 0, 0.1) 10%,
+           rgba(0, 0, 0, 0.4) 70%,
+           rgba(0, 0, 0, 1)
+   ),
+   url(${({src}) => (src ? `../images/misc/${src}.jpg` :
+          '../images/misc/home-bg.jpg')}) top left / cover no-repeat ;
+  word-break: keep-all;
 `;
 
 export const Frame = styled.div`
+
 `;
 
 export const Container = styled.div`
