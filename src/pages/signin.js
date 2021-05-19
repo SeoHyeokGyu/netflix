@@ -59,9 +59,8 @@ export default function SignIn() {
                     이 페이지는 Google reCAPTCHA의 보호를 받아 사용자가 로봇이 아님을 확인합니다. 자세히 알아보기
                 </Form.TextSmall>
             </Form>
+            <FooterContainer />
         </HeaderContainer>
-            <FooterContainer/>
-
         </>
     );
 }
