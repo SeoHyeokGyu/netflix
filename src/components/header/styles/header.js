@@ -7,16 +7,16 @@ export const Background = styled.div`
   //background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/misc/home-bg.jpg");
    background: linear-gradient(
            to top, 
-           rgba(0, 0, 0, 0.1) 10%,
-           rgba(0, 0, 0, 0.4) 70%,
-           rgba(0, 0, 0, 1)
+           rgba(0, 0, 0, .1) 10%,
+           rgba(0, 0, 0, .3) 70%,
+           rgba(20, 20, 20, .7)
    ),
    
    linear-gradient(
            to bottom,
-           rgba(0, 0, 0, 0.1) 10%,
-           rgba(0, 0, 0, 0.4) 70%,
-           rgba(0, 0, 0, 1)
+           rgba(0, 0, 0, .1) 10%,
+           rgba(0, 0, 0, .3) 70%,
+           rgba(20, 20, 20, .7)
    ),
    url(${({src}) => (src ? `../images/misc/${src}.jpg` :
           '../images/misc/home-bg.jpg')}) top left / cover no-repeat ;
