@@ -1,6 +1,9 @@
 # Netflix Clone / React-Firebase
 
 
-##Project Cleanup
- `yarn add firebase, styled-components, fuse.js, normalize.css`
+## Project Cleanup
+ `yarn add firebase` <br/>
+ `yarn add styled-components `<br/>
+ `yarn add use.js`<br/>
+ `yarn add normalize.css`<br/>
 
