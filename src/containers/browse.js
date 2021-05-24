@@ -5,6 +5,8 @@ import {Card, Header, Loading} from '../components'
 import * as ROUTES from '../constants/routes'
 import logo from "../logo.svg";
 import {FooterContainer} from "./footer";
+import Player from "../components/player";
+import Fuse from "fuse.js";
 
 export function BrowseContainer({slides}) {
 
@@ -28,6 +30,8 @@ export function BrowseContainer({slides}) {
     useEffect(() => {
         setSlideRows(slides[category]);
     }, [slides, category]);
+
+
 
     return profile.displayName ? (
         <>
@@ -88,10 +92,10 @@ export function BrowseContainer({slides}) {
                             ))}
                         </Card.Entities>
                         <Card.Feature category={category}>
-                            {/*<Player>*/}
-                            {/*    <Player.Button />*/}
-                            {/*    <Player.Video src="/video/bunny.mp4" />*/}
-                            {/*</Player>*/}
+                            <Player>
+                                <Player.Button />
+                                <Player.Video src="/video/bunny.mp4" />
+                            </Player>
                         </Card.Feature>
                     </Card>
                 ))}
