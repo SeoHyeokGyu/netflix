@@ -1,5 +1,5 @@
-import styled from "styled-components/macro";
-import {Link as ReactRouterLink} from "react-router-dom";
+import styled from 'styled-components/macro';
+import { Link as ReactRouterLink } from 'react-router-dom';
 
 export const Container = styled.div`
   display: flex;
@@ -50,6 +50,15 @@ export const TextSmall = styled.p`
   color: #8c8c8c;
 `;
 
+export const Link = styled(ReactRouterLink)`
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 export const Input = styled.input`
   background: #333;
   border-radius: 4px;
@@ -75,16 +84,8 @@ export const Submit = styled.button`
   border: 0;
   color: white;
   cursor: pointer;
-`;
 
-
-export const Link = styled(ReactRouterLink)`
-  color: #fff;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
+  &:disabled {
+    opacity: 0.5;
   }
 `;
-
-
