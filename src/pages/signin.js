@@ -16,7 +16,7 @@ export default function SignIn() {
 
   const isInvalid = password === '' || emailAddress === '';
 
-  const handleSignin = (event) => {
+  const handleSignIn = (event) => {
     event.preventDefault();
 
     return firebase
@@ -39,7 +39,7 @@ export default function SignIn() {
           <Form.Title>지금 로그인</Form.Title>
           {error && <Form.Error data-testid="error">{error}</Form.Error>}
 
-          <Form.Base onSubmit={handleSignin} method="POST">
+          <Form.Base onSubmit={handleSignIn} method="POST">
             <Form.Input
               placeholder="이메일 주소 또는 전화번호"
               value={emailAddress}
