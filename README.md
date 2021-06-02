@@ -24,3 +24,6 @@
 ![signup](https://user-images.githubusercontent.com/20594299/119663119-0a647300-be6d-11eb-8ddf-dfb803b71d10.GIF)
 
 
+![캡처](https://user-images.githubusercontent.com/20594299/120440201-498b4a80-c3be-11eb-89b2-4e0e08059122.GIF)
+![1](https://user-images.githubusercontent.com/20594299/120440205-4abc7780-c3be-11eb-896b-abe5a1908631.GIF)
+![list](https://user-images.githubusercontent.com/20594299/120440208-4b550e00-c3be-11eb-92c0-a3c34fbdc8b7.GIF)
