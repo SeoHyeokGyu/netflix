@@ -24,6 +24,10 @@
 ![signup](https://user-images.githubusercontent.com/20594299/119663119-0a647300-be6d-11eb-8ddf-dfb803b71d10.GIF)
 
 
-![캡처](https://user-images.githubusercontent.com/20594299/120440201-498b4a80-c3be-11eb-89b2-4e0e08059122.GIF)
-![1](https://user-images.githubusercontent.com/20594299/120440205-4abc7780-c3be-11eb-896b-abe5a1908631.GIF)
-![list](https://user-images.githubusercontent.com/20594299/120440208-4b550e00-c3be-11eb-92c0-a3c34fbdc8b7.GIF)
+![캡처](https://user-images.githubusercontent.com/20594299/120441688-c8cd4e00-c3bf-11eb-908f-5ff2b638ca57.GIF)
+
+![캡처3](https://user-images.githubusercontent.com/20594299/120441700-cb2fa800-c3bf-11eb-94b1-7e5b270d99a8.GIF)
+
+![캡처1](https://user-images.githubusercontent.com/20594299/120441691-c9fe7b00-c3bf-11eb-9b2e-7812db7495ac.GIF)
+
+![캡처2](https://user-images.githubusercontent.com/20594299/120441698-cb2fa800-c3bf-11eb-8096-eeba1b098515.GIF)
