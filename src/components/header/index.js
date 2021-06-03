@@ -73,6 +73,7 @@ Header.Search = function HeaderSearch({ searchTerm, setSearchTerm, ...restProps 
 
   return (
     <Search {...restProps}>
+      {/* eslint-disable-next-line no-shadow */}
       <SearchIcon onClick={() => setSearchActive((searchActive) => !searchActive)} data-testid="search-click">
         <img src="/images/icons/search.png" alt="Search" />
       </SearchIcon>

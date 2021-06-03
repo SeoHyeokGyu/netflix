@@ -1,4 +1,4 @@
-import styled from 'styled-components/macro'
+import styled from 'styled-components/macro';
 
 export const Container = styled.div`
   display: flex;
@@ -8,8 +8,6 @@ export const Container = styled.div`
   margin: auto;
   max-width: 80%;
 `;
-
-
 
 export const Title = styled.h1`
   width: 100%;
@@ -65,4 +63,3 @@ export const Item = styled.li`
     margin-right: 0;
   }
 `;
-

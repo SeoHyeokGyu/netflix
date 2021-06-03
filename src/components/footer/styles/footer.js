@@ -1,4 +1,4 @@
-import styled from 'styled-components/macro'
+import styled from 'styled-components/macro';
 
 // Container, Row, Column,Link, Title, Text, Break
 
@@ -8,9 +8,8 @@ export const Container = styled.div`
   //max-width: 5000px;
   width: 100%;
   flex-direction: column;
-  background: rgba(0,0,0,.75);
-  
-  
+  background: rgba(0, 0, 0, 0.75);
+
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }

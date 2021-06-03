@@ -1,4 +1,4 @@
-import styled, {createGlobalStyle} from "styled-components/macro";
+import styled, { createGlobalStyle } from 'styled-components';
 
 export const LockBody = createGlobalStyle`
   body {
@@ -17,8 +17,8 @@ export const Spinner = styled.div`
   height: 100%;
   background-color: black;
   z-index: 999;
-  
-  :after{
+
+  :after {
     content: '';
     position: absolute;
     top: 50%;
@@ -74,7 +74,7 @@ export const Spinner = styled.div`
 `;
 
 export const Picture = styled.img`
-    width: 50px;
+  width: 50px;
   height: 50px;
   position: absolute;
   top: 50%;

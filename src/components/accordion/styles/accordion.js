@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled from 'styled-components/macro';
 
 // Inner, Container, Frame, Title, Item, Header, Body
 
@@ -20,7 +20,7 @@ export const Item = styled.div`
   margin: auto;
   max-width: 700px;
   width: 100%;
-  
+
   &:first-of-type {
     margin-top: 3em;
   }
@@ -58,13 +58,12 @@ export const Body = styled.div`
   background: #303030;
   padding: 0.8em 2.2em 0.8em 1.2em;
   user-select: none;
-  
-  @media(max-width: 600px){
+
+  @media (max-width: 600px) {
     font-size: 16px;
     line-height: 22px;
   }
 `;
-
 
 export const Title = styled.h1`
   font-size: 50px;

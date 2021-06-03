@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled from 'styled-components/macro';
 
 export const Title = styled.p`
   font-size: 24px;
@@ -28,17 +28,16 @@ export const Container = styled.div`
 
 export const Group = styled.div`
   display: flex;
-  flex-direction: ${({flexDirection}) => flexDirection === 'row' ? 'row' : 'column'};
+  flex-direction: ${({ flexDirection }) => (flexDirection === 'row' ? 'row' : 'column')};
 
-  ${({alignItems}) => alignItems && `align-items: ${alignItems}`};
-  ${({margin}) => margin && `margin: ${margin}`};
+  ${({ alignItems }) => alignItems && `align-items: ${alignItems}`};
+  ${({ margin }) => margin && `margin: ${margin}`};
 
   > ${Container}:first-of-type {
     @media (min-width: 1100px) {
       margin-top: -100px;
     }
   }
-
 `;
 
 export const SubTitle = styled.p`
@@ -61,11 +60,10 @@ export const Text = styled.p`
   line-height: normal;
 `;
 
-
 export const FeatureText = styled.p`
   font-size: 18px;
   color: white;
-  font-weight: ${({fontWeight}) => (fontWeight === 'bold' ? 'bold' : 'normal')};
+  font-weight: ${({ fontWeight }) => (fontWeight === 'bold' ? 'bold' : 'normal')};
   margin: 0;
 
   @media (max-width: 600px) {
@@ -76,14 +74,13 @@ export const FeatureText = styled.p`
 export const Feature = styled.div`
   display: flex;
   flex-direction: row;
-  background: url(${({src}) => src});
+  background: url(${({ src }) => src});
   background-size: contain;
   position: relative;
   height: 360px;
   background-position-x: right;
   background-repeat: no-repeat;
   background-color: black;
-
 
   @media (max-width: 1000px) {
     height: auto;
@@ -121,7 +118,7 @@ export const FeatureClose = styled.button`
 `;
 
 export const Maturity = styled.div`
-  background-color: ${({rating}) => (rating >= 15 ? 'red' : 'green')};
+  background-color: ${({ rating }) => (rating >= 15 ? 'red' : 'green')};
   border-radius: 15px;
   width: 20px;
   padding: 5px;
@@ -131,7 +128,6 @@ export const Maturity = styled.div`
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   margin-right: 10px;
   font-size: 12px;
-
 `;
 
 export const Content = styled.div`
@@ -155,9 +151,8 @@ export const Meta = styled.div`
   position: absolute;
   bottom: 0;
   padding: 10px;
-  background-color: #0000008F;
+  background-color: #0000008f;
 `;
-
 
 export const Item = styled.div`
   display: flex;
