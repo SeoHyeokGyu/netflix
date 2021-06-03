@@ -7,6 +7,9 @@
  `yarn add use.js`<br/>
  `yarn add normalize.css`<br/>
 
+## Link
+https://netflix-9ubwx48d0-seohyeokgyu.vercel.app/
+
 ## Screenshot
 
 
